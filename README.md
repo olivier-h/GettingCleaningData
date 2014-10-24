@@ -38,3 +38,4 @@ The modified columns names were associated to correspondant dataset columns.
 8. The dataset was grouped by subject id and activity label to calculate the mean of each variable for each group.
 
 9. Finally, the dataset was written in the file *tdataset.txt*.
+To read the file : *readdataset = read.table("tdataset.txt", header=TRUE)*.
